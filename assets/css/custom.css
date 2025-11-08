@@ -13,3 +13,20 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
 
 /* Keep your back button tidy if you want */
 .page-header .btn { border-radius: 6px; }
+
+/* Home hero compact */
+.home .page-header{
+  padding: 32px 16px;     /* was much larger */
+  min-height: auto;
+}
+
+/* Tighten typography a bit */
+.home .project-name{ margin: 6px 0 4px; font-size: 42px; }
+.home .project-tagline{ margin: 0 0 8px; font-weight: 500; }
+
+/* Optional: subtle background + fade */
+.home .page-header{
+  background-image: linear-gradient(120deg, rgba(0,0,0,0.25), rgba(0,0,0,0.15)), 
+                    linear-gradient(120deg,#155799,#159957);
+  background-blend-mode: overlay, normal;
+}
