@@ -30,3 +30,27 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
                     linear-gradient(120deg,#155799,#159957);
   background-blend-mode: overlay, normal;
 }
+
+/* Make Cayman buttons visible inside the white content area */
+.main-content .btn {
+  background: #0366d6;         /* solid blue */
+  color: #fff !important;      /* readable text */
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+.main-content .btn:hover {
+  background: #0257b6;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Optional: grid helper for your intro cards */
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+}
