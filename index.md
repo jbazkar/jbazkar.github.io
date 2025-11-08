@@ -6,7 +6,6 @@
   <a class="btn" href="/contact">✉️ Contact</a>
 </div>
 
-
 # Baskaran Jeyarajan  
 **IEEE Senior Member | AI-Driven Cloud & DevOps Innovator**
 
