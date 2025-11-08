@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
   </head>
-  <body>
+  <body class="{% if page.url == '/' or page.url == '/index.html' or page.path == 'index.md' or page.path == 'README.md' %}home{% endif %}">
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
 <header class="page-header" role="banner" style="position: relative;">
