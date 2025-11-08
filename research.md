@@ -1,7 +1,7 @@
 # Research & Publications
 My research advances AI-enabled DevOps and cloud reliability engineering.  
 
-**Highlights:** 8 IEEE-published papers · 33 citations worldwide  
+**Highlights:** 8 IEEE-published papers · 34 citations worldwide  
 
 1. *AI for Predictive Monitoring and Anomaly Detection in DevOps Environments* – [IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10971552)  
 2. *AI-Driven Voice Inputs for Speech Engine Testing in Conversational Systems* – [IEEE Xplore](https://ieeexplore.ieee.org/document/10971485)  
