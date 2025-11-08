@@ -12,10 +12,9 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
 <header class="page-header" role="banner" style="position: relative;">
-  {% unless page.url == "/" %}
-    <!-- 🔙 Global Back button (hidden on homepage) -->
+  {% unless page.url == "/" or page.url == "/index.html" or page.path == "index.md" or page.path == "README.md" %}
     <a href="javascript:history.back()" class="btn"
-       style="position: absolute; top: 15px; right: 15px; background:#0366d6; color:#fff;">
+       style="position:absolute; top:15px; right:15px; background:#0366d6; color:#fff;">
       ← Back
     </a>
   {% endunless %}
