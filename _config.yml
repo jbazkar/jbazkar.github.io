@@ -2,3 +2,20 @@ title: "Baskaran Jeyarajan"
 description: "AWS Cloud Specialist | DevOps Architect | AI Research Contributor"
 theme: jekyll-theme-cayman
 url: "https://awsbaskar.net"
+# Keep your existing settings …
+theme: jekyll-theme-cayman
+
+# Nice URLs for posts under /blog/
+permalink: /blog/:year/:month/:day/:title/
+
+# Pagination (GitHub Pages supports jekyll-paginate)
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# (Optional) add defaults so Markdown in /_posts uses 'post' layout automatically
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
