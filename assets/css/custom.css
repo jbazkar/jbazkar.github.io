@@ -117,6 +117,35 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
   color: #0366d6;
   text-decoration: none;
 }
+/* === Author Box under posts === */
+.author-box{
+  display:flex;
+  gap:16px;
+  align-items:center;
+  max-width:800px;
+  margin: 32px auto 0;
+  padding:16px 18px;
+  border:1px solid #e6e6e6;
+  border-radius:12px;
+  background:#fafafa;
+}
+
+.author-avatar{
+  width:72px; height:72px;
+  border-radius:50%;
+  object-fit:cover;
+  box-shadow:0 2px 6px rgba(0,0,0,0.08);
+}
+
+.author-meta{ line-height:1.45; }
+.author-name{ margin:0; font-size:1.05rem; font-weight:700; }
+.author-title{ margin:.15rem 0 .35rem; color:#555; font-size:.95rem; }
+.author-links a{ color:#0366d6; text-decoration:none; }
+.author-links a:hover{ text-decoration:underline; }
+
+@media (max-width: 560px){
+  .author-box{ flex-direction:column; text-align:center; }
+}
 
 .post-nav a:hover {
   text-decoration: underline;
