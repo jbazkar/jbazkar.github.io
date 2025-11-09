@@ -1,4 +1,3 @@
-
 # Baskaran Jeyarajan  
 **IEEE Senior Member | AI-Driven Cloud & DevOps Innovator**
 
