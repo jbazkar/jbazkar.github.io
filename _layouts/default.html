@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | default: site.title | default: site.github.repository_name }}</title>
-    {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
-  </head>
-  <body class="{% if page.url == '/' or page.url == '/index.html' or page.path == 'index.md' or page.path == 'README.md' %}home{% endif %}">
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
 <header class="page-header" role="banner" style="position: relative;">
-  {% unless page.url == "/" or page.url == "/index.html" or page.path == "index.md" or page.path == "README.md" %}
+  {% unless page.url == "/" %}
+    <!-- 🔙 Global Back button (hidden on homepage) -->
     <a href="javascript:history.back()" class="btn"
-       style="position:absolute; top:15px; right:15px; background:#0366d6; color:#fff;">
+       style="position: absolute; top: 15px; right: 15px; background:#0366d6; color:#fff;">
       ← Back
     </a>
   {% endunless %}
@@ -43,13 +26,3 @@
     <a href="{{ site.github.owner_url }}" class="btn">View My GitHub Profile</a>
   {% endif %}
 </header>
-
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-      <footer class="site-footer">
-        <p>© {{ site.time | date: '%Y' }} {{ site.title | default: site.github.owner_name }}</p>
-      </footer>
-    </main>
-  </body>
-</html>
