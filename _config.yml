@@ -38,5 +38,6 @@ url: "https://awsbaskar.net"
 # baseurl should be empty for a root-domain site:
 baseurl: ""
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed      # optional RSS at /feed.xml
