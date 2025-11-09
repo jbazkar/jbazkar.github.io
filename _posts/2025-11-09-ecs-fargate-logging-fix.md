@@ -47,4 +47,4 @@ Here’s a quick guide to diagnose and fix it.
   }
 }
 
-🧩 Consistent log delivery means predictable debugging — one of the quiet strengths of any DevOps pipeline.
+🧩 Consistent log delivery means predictable debugging — one of the quiet strengths of any DevOps pipeline!
