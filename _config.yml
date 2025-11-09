@@ -30,3 +30,10 @@ author:
       url: "https://github.com/jbazkar"
     - text: "ResearchGate"
       url: "https://www.researchgate.net/profile/Baskaran-Jeyarajan"
+# If your main public URL is awsbaskar.net
+url: "https://awsbaskar.net"
+# baseurl should be empty for a root-domain site:
+baseurl: ""
+plugins:
+  - jekyll-sitemap
+
