@@ -12,6 +12,22 @@ layout: default
 <article class="post-body">
   {{ content }}
 </article>
+<!-- Author box -->
+<section class="author-box">
+  <img class="author-avatar" src="{{ page.author.avatar | default: site.author.avatar }}" alt="{{ page.author.name | default: site.author.name }}">
+  <div class="author-meta">
+    <h3 class="author-name">{{ page.author.name | default: site.author.name }}</h3>
+    <p class="author-title">{{ page.author.title | default: site.author.title }}</p>
+    {% assign links = page.author.links | default: site.author.links %}
+    {% if links %}
+      <p class="author-links">
+        {% for l in links %}
+          <a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.text }}</a>{% unless forloop.last %} · {% endunless %}
+        {% endfor %}
+      </p>
+    {% endif %}
+  </div>
+</section>
 
 <!-- Post footer navigation -->
 <hr>
