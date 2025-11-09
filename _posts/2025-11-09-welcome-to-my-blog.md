@@ -3,6 +3,7 @@ layout: post
 title: "Welcome to my blog"
 description: "Kicking off notes on Cloud, DevOps, AIOps, and release leadership."
 tags: [Cloud, DevOps, AIOps]
+image: "/assets/blog/smartops-banner.png"
 ---
 
 This is my first post. I’ll share quick notes, fixes, and deep dives on **AWS**, **platform engineering**, **SRE**, and **AI for DevOps**.
