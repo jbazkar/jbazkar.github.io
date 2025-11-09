@@ -42,4 +42,4 @@ This site is built with:
 
 ---
 
-© {{ site.time | date: '%Y' }} Baskaran Jeyarajan. All Rights Reserved.
+© {{ site.time | date: '%Y' }} Baskaran Jeyarajan.  All Rights Reserved.
