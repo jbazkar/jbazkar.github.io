@@ -19,3 +19,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+author:
+  name: "Baskaran Jeyarajan"
+  title: "Senior Cloud & DevOps Engineer • IEEE Senior Member"
+  avatar: "/assets/img/author.jpg"   # upload this file in step 2
+  links:
+    - text: "LinkedIn"
+      url: "https://www.linkedin.com/in/awsbaskar"
+    - text: "GitHub"
+      url: "https://github.com/jbazkar"
+    - text: "ResearchGate"
+      url: "https://www.researchgate.net/profile/Baskaran-Jeyarajan"
