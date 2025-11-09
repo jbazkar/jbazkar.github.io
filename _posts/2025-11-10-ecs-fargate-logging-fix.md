@@ -46,3 +46,5 @@ Here’s a quick guide to diagnose and fix it.
     awslogs-stream-prefix = "ecs"
   }
 }
+
+🧩 Consistent log delivery means predictable debugging — one of the quiet strengths of any DevOps pipeline.
