@@ -1,9 +1,11 @@
 ---
 layout: default
-title: "Blog"
-description: "Insights on Cloud, DevOps, AIOps, and Enterprise Release Engineering"
+title: "Blog – AI, Cloud & DevOps Insights by Baskaran Jeyarajan"
+description: "Articles and research notes on Cloud, DevOps, AIOps, and Enterprise Release Engineering — covering real-world frameworks like SmartOps and predictive automation in platform delivery."
 permalink: /blog/
+image: "/assets/img/blog-banner.png"
 ---
+
 
 <!-- Blog hero banner -->
 <section class="blog-hero">
