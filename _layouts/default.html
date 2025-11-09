@@ -19,7 +19,10 @@
 
 <header class="page-header" role="banner" style="position: relative;">
   {% unless page.url == "/" or page.url == "/index.html" or page.path == "index.md" or page.path == "README.md" %}
-    <a href="javascript:history.back()" class="btn back-btn" aria-label="Go back">← Back</a>
+    <div class="nav-buttons">
+     <a href="javascript:history.back()" class="btn back-btn" aria-label="Go back">← Back</a> 
+     <a href="{{ '/' | relative_url }}" class="btn home-btn" aria-label="Go home">🏠 Home</a>
+    </div>   
   {% endunless %}
 
   <h1 class="project-name">
