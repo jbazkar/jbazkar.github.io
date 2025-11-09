@@ -151,4 +151,31 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
   text-decoration: underline;
   color: #024d9c;
 }
+/* Ensure header is a positioning context */
+.page-header { position: relative; }
+
+/* Back button: always top-right in the hero */
+.page-header .back-btn{
+  position: absolute !important;
+  top: 14px;
+  right: 14px;
+  margin: 0 !important;
+  transform: none !important;
+  z-index: 5;
+  background: rgba(0,0,0,.2);
+  color: #fff !important;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 16px;
+}
+
+/* Tweak sizing on small screens */
+@media (max-width: 480px){
+  .page-header .back-btn{
+    top: 10px;
+    right: 10px;
+    padding: 9px 14px;
+    font-size: 16px;
+  }
+}
 
