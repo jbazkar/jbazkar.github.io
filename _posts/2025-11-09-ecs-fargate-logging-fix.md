@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "ECS Fargate Logging Fix: Streamlining Container Insights"
-description: "Troubleshooting guide for resolving missing Fargate logs in CloudWatch and ensuring consistent log delivery."
-tags: [AWS, ECS, Fargate, CloudWatch, Logging, Troubleshooting]
+description: "Step-by-step guide to resolving missing Fargate logs in CloudWatch and ensuring consistent container logging across AWS ECS services using IaC best practices."
+image: "/assets/blog/fargate-logging-banner.png"
+tags: [AWS, ECS, Fargate, CloudWatch, Logging, Troubleshooting, DevOps]
+date: 2025-11-09
 ---
 
 A frequent issue in AWS ECS Fargate is **missing logs in CloudWatch**, even when tasks are running fine.  
