@@ -1,19 +1,14 @@
 ---
-layout: default
+layout: post
+title: "Welcome to my blog"
+description: "Kicking off notes on Cloud, DevOps, AIOps, and release leadership."
+tags: [Cloud, DevOps, AIOps]
 ---
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <p><small>Published {{ page.date | date: "%B %d, %Y" }}</small></p>
 
-  {{ content }}
+This is my first post. I’ll share quick notes, fixes, and deep dives on **AWS**, **platform engineering**, **SRE**, and **AI for DevOps**.
 
-  <hr>
-  <p>
-    {% if page.tags %}<small>Tags: {{ page.tags | join: ", " }}</small>{% endif %}
-  </p>
+- Expect hands-on snippets (Terraform, ECS/Fargate, GitHub Actions)
+- Release engineering playbooks and incident writeups
+- AIOps experiments (anomaly detection, predictive scaling)
 
-  <nav style="margin-top:20px; display:flex; justify-content:space-between;">
-    <div>{% if page.previous %}← <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>{% endif %}</div>
-    <div>{% if page.next %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a> →{% endif %}</div>
-  </nav>
-</article>
+Stay tuned!
