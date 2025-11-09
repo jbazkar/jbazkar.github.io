@@ -31,32 +31,3 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
   background-blend-mode: overlay, normal;
 }
 
-/* Make Cayman .btn visible in the white content area */
-main.main-content a.btn,
-.main-content a.btn,
-.main-content .btn {
-  background: #0366d6 !important;
-  color: #fff !important;
-  border: none !important;
-  border-radius: 8px !important;
-  padding: 10px 14px !important;
-  text-decoration: none !important;
-  display: inline-block;
-}
-
-main.main-content a.btn:hover,
-.main-content a.btn:hover,
-.main-content .btn:hover {
-  background: #0257b6 !important;
-  text-decoration: none !important;
-  transform: translateY(-1px);
-}
-
-/* Grid wrapper for your intro links */
-.card-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 12px;
-  margin: 18px 0;
-}
-
