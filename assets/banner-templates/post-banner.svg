@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900">
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0366D6"></stop>
+      <stop offset="100%" stop-color="#0FA678"></stop>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-opacity="0.25"></feDropShadow>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g)"></rect>
+
+  <!-- Subtle tech shapes -->
+  <g opacity="0.15">
+    <circle cx="1350" cy="200" r="140" fill="#fff"></circle>
+    <rect x="150" y="650" width="340" height="90" rx="12" fill="#fff"></rect>
+    <circle cx="260" cy="210" r="90" fill="#fff"></circle>
+  </g>
+
+  <!-- Tag pill -->
+  <g filter="url(#s)">
+    <rect x="80" y="90" rx="18" ry="18" width="520" height="70" fill="rgba(0,0,0,0.25)"></rect>
+    <text x="110" y="138" font-family="Inter, Segoe UI, Helvetica, Arial" font-size="34" fill="#FFFFFF">AI • Cloud • DevOps</text>
+  </g>
+
+  <!-- TITLE (edit this per post, max ~55 chars per line) -->
+  <text x="80" y="280" font-family="Poppins, Inter, Segoe UI, Helvetica, Arial" font-size="74" font-weight="700" fill="#FFFFFF">
+    SmartOps: AIOps for Predictive Releases
+  </text>
+
+  <!-- Subtitle (optional) -->
+  <text x="80" y="360" font-family="Inter, Segoe UI, Helvetica, Arial" font-size="36" fill="rgba(255,255,255,0.9)">
+    Anomaly detection • self-healing • automated decisions
+  </text>
+
+  <!-- Signature / author -->
+  <text x="80" y="810" font-family="Inter, Segoe UI, Helvetica, Arial" font-size="30" fill="rgba(255,255,255,0.95)">
+    Baskaran Jeyarajan — AIOpsBaskar
+  </text>
+
+  <!-- Logo mark (simple hex) -->
+  <g transform="translate(1420,750)" opacity="0.9">
+    <polygon points="0,0 80,0 120,70 80,140 0,140 -40,70" fill="rgba(255,255,255,0.15)"></polygon>
+  </g>
+</svg>
