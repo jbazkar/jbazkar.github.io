@@ -68,4 +68,58 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
   text-decoration: underline;
   color: #024d9c;
 }
+/* === Blog Post Styling === */
+.post-hero {
+  background: linear-gradient(135deg, #0366d6, #0fa678);
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px 60px;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.post-hero h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.post-meta {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.post-body {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.post-body img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-size: 0.95rem;
+}
+
+.post-nav a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.post-nav a:hover {
+  text-decoration: underline;
+  color: #024d9c;
+}
 
