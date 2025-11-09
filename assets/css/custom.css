@@ -178,4 +178,42 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
     font-size: 16px;
   }
 }
+/* Container for both buttons */
+.nav-buttons {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: flex;
+  gap: 10px;
+  z-index: 5;
+}
+
+/* Button styling */
+.nav-buttons .btn {
+  background: rgba(0,0,0,0.25);
+  color: #fff !important;
+  border: none;
+  border-radius: 10px;
+  padding: 9px 14px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.nav-buttons .btn:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+/* Mobile tweak */
+@media (max-width: 480px) {
+  .nav-buttons {
+    top: 10px;
+    right: 10px;
+    gap: 8px;
+  }
+  .nav-buttons .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
 
