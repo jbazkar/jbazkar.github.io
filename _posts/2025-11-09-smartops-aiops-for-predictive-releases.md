@@ -2,7 +2,7 @@
 layout: post
 title: "SmartOps: AIOps for Predictive Releases"
 description: "Introducing SmartOps — an AI-powered DevOps framework for predictive monitoring, anomaly detection, and self-healing release automation in enterprise platforms."
-image: "/assets/blog/smartops-banner.png"
+image: "/assets/blog/profile.png"
 tags: [AIOps, DevOps, AI, Predictive Monitoring, Automation, SmartOps, Cloud]
 date: 2025-11-09
 ---
