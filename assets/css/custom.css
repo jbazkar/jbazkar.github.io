@@ -156,7 +156,7 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
 
 /* Back button: always top-right in the hero */
 .page-header .back-btn{
-  position: absolute !important;
+  position: static !important;
   top: 14px;
   right: 14px;
   margin: 0 !important;
@@ -253,5 +253,38 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
     font-size: 13px;
     padding: 7px 12px;
   }
+}
+/* Top-right Back + Home buttons (no overlap) */
+.nav-buttons{
+  position: fixed;            /* container is positioned */
+  top: 14px;
+  right: 14px;
+  display: flex;
+  gap: 10px;                  /* space between buttons */
+  flex-wrap: wrap;            /* wrap on narrow screens */
+  z-index: 9999;
+}
+
+/* Make sure individual buttons are NOT absolutely positioned */
+.nav-buttons .btn,
+.nav-buttons .back-btn,
+.nav-buttons .home-btn{
+  position: static !important;   /* cancels earlier absolute rule */
+  margin: 0 !important;          /* avoid Cayman’s centered margins */
+  transform: none !important;
+  box-shadow: 0 3px 8px rgba(0,0,0,.25);
+  background: #0a66cc;
+  color: #fff !important;
+  border: 0;
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 14px;
+}
+
+/* Hover + mobile tweaks */
+.nav-buttons .btn:hover{ background:#094fa3; }
+@media (max-width: 480px){
+  .nav-buttons{ top:10px; right:10px; gap:8px; }
+  .nav-buttons .btn{ font-size:13px; padding:7px 12px; }
 }
 
