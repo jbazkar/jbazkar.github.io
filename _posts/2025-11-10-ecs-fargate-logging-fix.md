@@ -18,7 +18,8 @@ Here’s a quick guide to diagnose and fix it.
    ```bash
    aws ecs describe-task-definition --task-definition my-app:12
 2. **Confirm the log configuration section:**
-"logConfiguration": {
+  ```bash
+  "logConfiguration": {
   "logDriver": "awslogs",
   "options": {
     "awslogs-group": "/ecs/my-app",
@@ -26,9 +27,11 @@ Here’s a quick guide to diagnose and fix it.
     "awslogs-stream-prefix": "ecs"
   }
 }
-3. **If logs are missing, redeploy with:**
+4. **If logs are missing, redeploy with:**
+   ```bash
    aws ecs update-service --cluster my-cluster --service my-service --force-new-deployment
-4. **Bonus Tip - Add this to your terraform or CloudFormation to avoid drift:**
+5. **Bonus Tip - Add this to your terraform or CloudFormation to avoid drift:**
+  ```bash
   log_configuration {
   log_driver = "awslogs"
   options = {
