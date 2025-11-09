@@ -1,0 +1,33 @@
+---
+layout: default
+title: "Blog"
+description: "Notes on Cloud, DevOps, AIOps, and Release Engineering"
+---
+
+<h1>Blog</h1>
+
+{% assign posts = site.posts %}
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% endif %}
+
+<ul style="list-style:none; padding-left:0;">
+  {% for post in posts %}
+    <li style="margin:18px 0;">
+      <a href="{{ post.url | relative_url }}" style="font-weight:600;">{{ post.title }}</a>
+      <div><small>{{ post.date | date: "%b %-d, %Y" }}</small></div>
+      {% if post.description %}<div><small>{{ post.description }}</small></div>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+{% if paginator %}
+  <div style="margin-top:24px; display:flex; gap:12px;">
+    {% if paginator.previous_page %}
+      <a class="btn" href="{{ paginator.previous_page_path | relative_url }}">← Newer</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a class="btn" href="{{ paginator.next_page_path | relative_url }}">Older →</a>
+    {% endif %}
+  </div>
+{% endif %}
