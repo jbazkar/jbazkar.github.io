@@ -8,6 +8,9 @@ theme: jekyll-theme-cayman
 # Nice URLs for posts under /blog/
 permalink: /blog/:year/:month/:day/:title/
 
+# (Optional) timezone for dates
+timezone: America/New_York
+
 # Pagination (GitHub Pages supports jekyll-paginate)
 paginate: 5
 paginate_path: "/blog/page:num/"
@@ -36,4 +39,4 @@ url: "https://awsbaskar.net"
 baseurl: ""
 plugins:
   - jekyll-sitemap
-
+  - jekyll-feed      # optional RSS at /feed.xml
