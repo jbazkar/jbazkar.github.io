@@ -216,4 +216,42 @@ h1, h2, h3, .project-name, .project-tagline { font-family: var(--font-heading); 
     padding: 8px 12px;
   }
 }
+/* Back + Home Buttons */
+.nav-buttons {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  gap: 12px;
+  z-index: 9999;
+}
+
+.nav-buttons .btn {
+  background: #0066cc;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.nav-buttons .btn:hover {
+  background: #004c99;
+}
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+  .nav-buttons {
+    top: 10px;
+    right: 10px;
+    gap: 8px;
+  }
+  .nav-buttons .btn {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+}
 
