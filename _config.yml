@@ -25,7 +25,7 @@ defaults:
 author:
   name: "Baskaran Jeyarajan"
   title: "Senior Cloud & DevOps Engineer • IEEE Senior Member"
-  avatar: "/assets/img/author.jpg"   # upload this file in step 2
+  avatar: "/assets/img/unnamed.jpg"   # upload this file in step 2
   links:
     - text: "LinkedIn"
       url: "https://www.linkedin.com/in/awsbaskar"
