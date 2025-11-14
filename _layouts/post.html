@@ -6,12 +6,28 @@ layout: default
 <section class="post-hero">
   <h1>{{ page.title }}</h1>
   <p class="post-meta">Published on {{ page.date | date: "%B %d, %Y" }}</p>
+
+  <!-- 👁 Per-post page views -->
+  <div style="margin-top:8px; font-size:14px; color:#a8b0c3;">
+    <span id="post-views" data-page="{{ page.url | escape }}"
+          style="display:inline-flex; align-items:center; gap:6px;">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+           stroke="var(--accent, #66d9e8)" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round">
+        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+        <circle cx="12" cy="12" r="3"/>
+      </svg>
+      Page views: …
+    </span>
+  </div>
+  <!-- end views -->
 </section>
 
 <!-- Main post content -->
 <article class="post-body">
   {{ content }}
 </article>
+
 <!-- Author box -->
 <section class="author-box">
   <img class="author-avatar" src="{{ page.author.avatar | default: site.author.avatar }}" alt="{{ page.author.name | default: site.author.name }}">
@@ -43,3 +59,37 @@ layout: default
     {% endif %}
   </div>
 </nav>
+
+<!-- 🔁 Views script (uses Lambda + DynamoDB) -->
+<script>
+  (function () {
+    const el = document.getElementById("post-views");
+    if (!el) return;
+
+    const pageKey = el.getAttribute("data-page") || "/blog/unknown";
+    const endpointBase = "https://jmgf0i5809.execute-api.us-east-1.amazonaws.com/prod/views";
+    const endpoint = endpointBase + "?page=" + encodeURIComponent(pageKey);
+
+    fetch(endpoint)
+      .then(res => res.json())
+      .then(data => {
+        console.log("Post views API:", data);
+        const total = typeof data.views === "number" ? data.views : 0;
+        const today = typeof data.today === "number" ? data.today : 0;
+
+        el.innerHTML = `
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+               stroke="var(--accent, #66d9e8)" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+          Page views: ${total} (today: ${today})
+        `;
+      })
+      .catch(err => {
+        console.error("Post view counter error:", err);
+        el.textContent = "Page views: 0 (today: 0)";
+      });
+  })();
+</script>
