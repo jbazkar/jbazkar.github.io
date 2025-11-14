@@ -31,3 +31,45 @@ description: "Notes on Cloud, DevOps, AIOps, and Release Engineering"
     {% endif %}
   </div>
 {% endif %}
+<!-- 🔁 Views script (uses Lambda + DynamoDB) -->
+<script>
+  (function () {
+    const el = document.getElementById("post-views");
+    if (!el) return;
+
+    // Jekyll page URL, e.g. /blog/2025/11/09/ecs-fargate-logging-fix/
+    const pageKey = el.getAttribute("data-page") || "/blog/unknown";
+
+    const endpointBase = "https://jmgf0i5809.execute-api.us-east-1.amazonaws.com/prod/views";
+    const endpoint = endpointBase + "?page=" + encodeURIComponent(pageKey);
+
+    fetch(endpoint)
+      .then(res => res.json())
+      .then(data => {
+        console.log("Post views API:", data);
+
+        if (data && data.error) {
+          console.error("Views API error:", data.error);
+          el.textContent = "Page views: 0 (today: 0)";
+          return;
+        }
+
+        const total = typeof data.views === "number" ? data.views : 0;
+        const today = typeof data.today === "number" ? data.today : 0;
+
+        el.innerHTML = `
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+               stroke="var(--accent, #66d9e8)" stroke-width="2"
+               stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+          Page views: ${total} (today: ${today})
+        `;
+      })
+      .catch(err => {
+        console.error("Post view counter error:", err);
+        el.textContent = "Page views: 0 (today: 0)";
+      });
+  })();
+</script>
