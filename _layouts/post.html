@@ -9,7 +9,8 @@ layout: default
 
   <!-- 👁 Per-post page views -->
   <div style="margin-top:8px; font-size:14px; color:#a8b0c3;">
-    <span id="post-views" data-page="{{ page.url | escape }}"
+    <span id="post-views"
+          data-page="{{ page.url | escape }}"
           style="display:inline-flex; align-items:center; gap:6px;">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
            stroke="var(--accent, #66d9e8)" stroke-width="2"
@@ -66,7 +67,9 @@ layout: default
     const el = document.getElementById("post-views");
     if (!el) return;
 
+    // Jekyll page URL, e.g. /blog/2025/11/09/ecs-fargate-logging-fix/
     const pageKey = el.getAttribute("data-page") || "/blog/unknown";
+
     const endpointBase = "https://jmgf0i5809.execute-api.us-east-1.amazonaws.com/prod/views";
     const endpoint = endpointBase + "?page=" + encodeURIComponent(pageKey);
 
@@ -74,6 +77,13 @@ layout: default
       .then(res => res.json())
       .then(data => {
         console.log("Post views API:", data);
+
+        if (data && data.error) {
+          console.error("Views API error:", data.error);
+          el.textContent = "Page views: 0 (today: 0)";
+          return;
+        }
+
         const total = typeof data.views === "number" ? data.views : 0;
         const today = typeof data.today === "number" ? data.today : 0;
 
