@@ -25,4 +25,14 @@ My research advances AI-enabled DevOps and cloud reliability engineering.
    IEEE Xplore, 2024.  
    [Link](https://ieeexplore.ieee.org/document/10977712)
 
-📘 View all citations on [Google Scholar](https://scholar.google.com/citations?user=vXjdXFYAAAAJ&hl=en)
+---
+
+## 📄 Downloadable PDFs (Recommended for Google Scholar Indexing)
+
+- **[Citations List (PDF)](/research/citations.pdf)**  
+- **[Technical Report (PDF)](/research/technical_report.pdf)**
+
+---
+
+📘 View all citations on  
+👉 **[Google Scholar](https://scholar.google.com/citations?user=vXjdXFYAAAAJ&hl=en)**  
