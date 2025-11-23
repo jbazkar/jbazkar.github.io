@@ -23,8 +23,9 @@ This site is built with:
 
 ## 📚 Featured Work
 - Research Articles (IEEE Indexed)
+- Release Automation and Cloud Strategy Blogs/Articles
 - AI in DevOps Frameworks — “SmartOps”
-- Release Automation and Cloud Strategy Blogs
+- AI Bot & Web UI - "SmartFactCheck"
 
 ---
 
