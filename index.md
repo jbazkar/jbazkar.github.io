@@ -4,8 +4,8 @@ description: "Portfolio of Baskaran Jeyarajan – Senior Cloud & DevOps Engineer
 image: "/assets/blog/profile.png"
 ---
 ---
-# Baskaran Jeyarajan  
-**IEEE Senior Member | AI-Driven Cloud Reliability Architect | Innovator in Predictive Enterprise Automation**
+title: "Baskaran Jeyarajan"
+description: "IEEE Senior Member | AI-Driven Cloud Reliability Architect | Innovator in Predictive Enterprise Automation"
 image: "/assets/blog/profile.png"
 ---
 I am a technology leader with two decades of multi-domain experience advancing the fields of AI-powered DevOps, cloud platform engineering, and enterprise SRE. My work focuses on integrating machine learning, modern cloud architectures, and operational intelligence to build platforms that are adaptive, self-correcting, and engineered for large-scale reliability.
