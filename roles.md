@@ -7,14 +7,8 @@
 
   - **SmartOps Repository:** https://smartops.awsbaskar.net/smartops-repo  
   - **BFSI Dashboard (Results Page):** https://smartops.awsbaskar.net/bfsi_results.html
-- ### 🤖 AI Bot Creator  
-I created **SmartFactCheckBot_AIBot**, an AI-powered Fake/Real news detection bot available on:
+- **🤖 AI Bot Creator** –created **SmartFactCheckBot_AIBot**, an AI-powered Fake/Real news detection bot enables instant news authenticity verification through Telegram or a simple, login-free web interface.
 
-- **Telegram Bot:** https://t.me/SmartFactCheck_AIBot  
-- **Web UI (No Login Required):** https://factcheck.awsbaskar.net/  
-- **GitHub Pages Repo:** https://awsbaskar.net/smartfactcheckbot-repo  
-
-This bot enables instant news authenticity verification through Telegram or a simple, login-free web interface.
-
-  
-
+  - **Telegram Bot:** https://t.me/SmartFactCheck_AIBot  
+  - **Web UI (No Login Required):** https://factcheck.awsbaskar.net/
+  - **GitHub Pages Repo:** https://awsbaskar.net/smartfactcheckbot-repo
