@@ -5,10 +5,10 @@
 - **AWS Open-Source Contributor** – Delivered improvements across AWS CDK (IAM parsing, CLI enhancements), Karpenter (resource validation & allocable memory logic), AWS Lambda Powertools (ECS request encoding), and AWS Labs MCP (VS Code server documentation updates).
 - **AI Framework Developer** – Created the AI-driven **SmartOps Framework** for Anomaly Detection, Predictive Monitoring, and Cost Optimization in DevOps/SRE environments.
 
-  - **SmartOps Repository:** https://smartops.awsbaskar.net/smartops-repo  
-  - **BFSI Dashboard (Results Page):** https://smartops.awsbaskar.net/bfsi_results.html
+  - **SmartOps Repository:** [Link](https://smartops.awsbaskar.net/smartops-repo)   
+  - **BFSI Dashboard (Results Page):** [Link](https://smartops.awsbaskar.net/bfsi_results.html)
 - **🤖 AI Bot Creator** –created **SmartFactCheckBot_AIBot**, an AI-powered Fake/Real news detection bot enables instant news authenticity verification through Telegram or a simple, login-free web interface.
 
-  - **Telegram Bot:** https://t.me/SmartFactCheck_AIBot  
-  - **Web UI (No Login Required):** https://factcheck.awsbaskar.net/
-  - **GitHub Pages Repo:** https://awsbaskar.net/smartfactcheckbot-repo
+  - **Telegram Bot:** [Link](https://t.me/SmartFactCheck_AIBot)
+  - **Web UI (No Login Required):** [Link](https://factcheck.awsbaskar.net)
+  - **GitHub Pages Repo:** [Link](https://awsbaskar.net/smartfactcheckbot-repo)
