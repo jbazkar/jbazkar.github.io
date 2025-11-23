@@ -1,7 +1,7 @@
 # Research & Publications
 My research advances AI-enabled DevOps and cloud reliability engineering.  
 
-**Highlights:** 8 IEEE-published papers · 38 citations worldwide  
+**Highlights:** 9 IEEE-published papers · 39 citations worldwide  
 
 ## 📚 Selected Publications
 
