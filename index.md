@@ -1,7 +1,7 @@
 ---
 title: "Baskaran Jeyarajan – AWS Cloud & DevOps Architect | AI Research Contributor"
 description: "Portfolio of Baskaran Jeyarajan – Senior Cloud & DevOps Engineer with 20 years of cross-domain IT experience in AI-driven automation, platform engineering, and enterprise release leadership."
-image: "/assets/img/profile.png"
+image: "/assets/blog/profile.png"
 ---
 
 # Baskaran Jeyarajan  
