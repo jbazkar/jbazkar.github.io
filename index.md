@@ -5,10 +5,14 @@ image: "/assets/img/profile.png"
 ---
 
 # Baskaran Jeyarajan  
-**IEEE Senior Member | AI-Driven Cloud & DevOps Innovator**
+**IEEE Senior Member | AI-Driven Cloud Reliability Architect | Innovator in Predictive Enterprise Automation**
 
-Welcome to my research and professional portfolio! 
-With over 20 years of cross-domain IT experience, I specialize in uniting Cloud, DevOps, and Artificial Intelligence to engineer predictive, self-healing, and cost-optimized enterprise platforms. My work focuses on building intelligent automation frameworks that enhance reliability, scalability, and innovation—driving continuous improvement across complex enterprise environments.
-Explore my publications, articles, and professional contributions listed below.
+I am a technology leader with two decades of multi-domain experience advancing the fields of AI-powered DevOps, cloud platform engineering, and enterprise SRE. My work focuses on integrating machine learning, modern cloud architectures, and operational intelligence to build platforms that are adaptive, self-correcting, and engineered for large-scale reliability.
+
+I design impactful solutions such as SmartOps, an AI-driven predictive monitoring framework for BFSI systems, and SmartFactCheckBot, a public misinformation-detection platform using NLP model distillation. I also contribute to globally recognized open-source projects including AWS CDK, Lambda Powertools, Karpenter, and MCP.
+
+As an IEEE Senior Member, international researcher with 9 IEEE-indexed publications, and reviewer/session chair for major engineering conferences, I continue to advance innovation across AI, cloud computing, DevOps automation, and public-benefit technology.
+
+Explore my research, engineering work, open-source projects, and cross-disciplinary contributions showcased below.
 
 👉 [Research & Publications](research.md) | [Articles](articles.md) | [Blog](blog.md) | [Professional Roles](roles.md) | [Contact](contact.md)
