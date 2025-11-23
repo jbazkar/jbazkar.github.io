@@ -4,7 +4,9 @@ layout: default
 
 <!-- Post header banner -->
 <section class="post-hero">
-  <h1>{{ page.title }}</h1>
+  <h1>{{ page.title }}
+    <style>.post-hero h1 {color: white !important;}</style>
+  </h1>
   <p class="post-meta">Published on {{ page.date | date: "%B %d, %Y" }}</p>
 
   <!-- 👁 Per-post page views -->
