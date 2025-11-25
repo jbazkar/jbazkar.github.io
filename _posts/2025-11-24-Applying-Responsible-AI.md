@@ -15,7 +15,7 @@ Responsible AI prevents:
 - Privacy risks
 - Over-reliance on automated decisions
 
- _ Clear communication and transparent model behavior help users trust the system._
+ Clear communication and transparent model behavior help users trust the system.
 
 🧠 **Responsible AI in SmartFactCheckBot**
 
