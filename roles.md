@@ -1,6 +1,8 @@
 # Professional Roles & Contributions
 - **IT Excellence** – 20 years of cross-domain IT expertise delivering enterprise solutions, client engagement, and end-to-end platform success.  
-- **SRE, DevOps, Platform Engineering & Enterprise Release** – Driving reliable, scalable, and automated cloud delivery through integrated SRE, DevOps, and enterprise release practices.  
+- **SRE, DevOps, Platform Engineering & Enterprise Release** – Driving reliable, scalable, and automated cloud delivery through integrated SRE, DevOps, and enterprise release practices.
+- **IEEE Senior Member** - Recognized as an IEEE Senior Member for significant professional achievements and contributions to advancing engineering and technology.
+- **Raptors Fellowship Member** - Selected as a Raptors Fellowship Member for excellence in research, innovation, and leadership in emerging technologies.
 - **IEEE SoutheastCon 2025 Session Chair** – Served as a Session Chair, and led evaluation of 15 global presentations.
 - **AWS Open-Source Contributor** – Delivered improvements across AWS CDK (IAM parsing, CLI enhancements), Karpenter (resource validation & allocable memory logic), AWS Lambda Powertools (ECS request encoding), and AWS Labs MCP (VS Code server documentation updates).
 - **AI Framework Developer** – Created the AI-driven **SmartOps Framework** for Anomaly Detection, Predictive Monitoring, and Cost Optimization in DevOps/SRE environments.
