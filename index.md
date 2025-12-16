@@ -10,7 +10,7 @@ I am a technology leader with two decades of multi-domain experience advancing t
 
 I design impactful solutions such as SmartOps, an AI-driven predictive monitoring framework for BFSI systems, and SmartFactCheckBot, a public misinformation-detection platform using NLP model distillation. I also contribute to globally recognized open-source projects including AWS CDK, Lambda Powertools, Karpenter, and MCP.
 
-As an IEEE Senior Member, international researcher with 9 IEEE-indexed publications, and reviewer/session chair for major engineering conferences, I continue to advance innovation across AI, cloud computing, DevOps automation, and public-benefit technology.
+As an IEEE Senior Member, International researcher with 9 publications, and reviewer/session chair for major engineering conferences, I continue to advance innovation across AI, cloud computing, DevOps automation, and public-benefit technology.
 
 Explore my research, engineering work, open-source projects, and cross-disciplinary contributions showcased below.
 
