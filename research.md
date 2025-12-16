@@ -15,6 +15,7 @@ My research advances AI-enabled DevOps and cloud reliability engineering.
 
 3. *Quantitative Evaluation of User Experience in Digital Voice Assistant Systems: Analyzing Task Completion Time, Success Rate, and User Satisfaction*
    IEEE Xplore, 2025.
+   
    [Link](https://ieeexplore.ieee.org/abstract/document/10971452)
 
 5. *Advancing Robotics Testing: A Novel Framework for Adaptive and Scalable Evaluation.*  
